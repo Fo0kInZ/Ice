@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		80B0E552144A3946002FE972 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80B0E551144A3946002FE972 /* main.cpp */; };
+		80B8D728144A3C570022F3D4 /* Terra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80B8D726144A3C570022F3D4 /* Terra.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		80B0E54D144A3946002FE972 /* Ice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ice; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B0E551144A3946002FE972 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		80B0E553144A3946002FE972 /* Ice.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ice.1; sourceTree = "<group>"; };
+		80B8D726144A3C570022F3D4 /* Terra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Terra.cpp; sourceTree = "<group>"; };
+		80B8D727144A3C570022F3D4 /* Terra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terra.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				80B0E551144A3946002FE972 /* main.cpp */,
+				80B8D727144A3C570022F3D4 /* Terra.h */,
+				80B8D726144A3C570022F3D4 /* Terra.cpp */,
 				80B0E553144A3946002FE972 /* Ice.1 */,
 			);
 			path = Ice;
@@ -112,6 +117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80B0E552144A3946002FE972 /* main.cpp in Sources */,
+				80B8D728144A3C570022F3D4 /* Terra.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +164,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -169,6 +176,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -191,6 +199,7 @@
 				80B0E558144A3946002FE972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
