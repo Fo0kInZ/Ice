@@ -25,10 +25,10 @@
 
 /* Begin PBXFileReference section */
 		80B0E54D144A3946002FE972 /* Ice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ice; sourceTree = BUILT_PRODUCTS_DIR; };
-		80B0E551144A3946002FE972 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		80B0E553144A3946002FE972 /* Ice.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Ice.1; sourceTree = "<group>"; };
-		80B8D726144A3C570022F3D4 /* Terra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Terra.cpp; sourceTree = "<group>"; };
-		80B8D727144A3C570022F3D4 /* Terra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terra.h; sourceTree = "<group>"; };
+		80B0E551144A3946002FE972 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../src/main.cpp; sourceTree = SOURCE_ROOT; };
+		80B0E553144A3946002FE972 /* Ice.1 */ = {isa = PBXFileReference; name = Ice.1; path = ../src/Ice.1; sourceTree = SOURCE_ROOT; };
+		80B8D726144A3C570022F3D4 /* Terra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Terra.cpp; path = ../src/Terra.cpp; sourceTree = SOURCE_ROOT; };
+		80B8D727144A3C570022F3D4 /* Terra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Terra.h; path = ../src/Terra.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
