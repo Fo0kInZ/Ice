@@ -1,10 +1,6 @@
 //
 //  Terra.cpp
 //  Entropy
-//
-//  Created by louie on 7/6/11.
-//  Copyright 2011 underwood. All rights reserved.
-//
 
 #include "Terra.h"
 #include <stdlib.h>

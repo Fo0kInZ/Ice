@@ -1,13 +1,9 @@
 //
 //  main.cpp
 //  Ice
-//
-//  Created by louie on 10/15/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
 
 #include <iostream>
-
+#include "IceConfig.h"
 
 int main (int argc, const char * argv[])
 {
